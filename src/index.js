@@ -1,16 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Membro from './components/Membro';
-import Familia from './components/Familia';
-import ComponetsWithFunction from './components/ComponentWithFunction';
-import Parent from './components/Parent';
+import Hoock from './components/Hoock'
 
-const element = document.getElementById('root');
+// import Contador from './components/Contador';
+// import ComponentClass from './components/ComponentClass';
+// import Membro from './components/Membro';
+// import Familia from './components/Familia';
+// import ComponetsWithFunction from './components/ComponentWithFunction';
+// import Parent from './components/Parent';
 
-const jsx = 
+
+let element = document.getElementById('root');
+let jsx = 
 (    
-
-    <Parent></Parent>
+    <Hoock></Hoock>
+    // <Contador numeroInicial={5}></Contador>
+    // <ComponentClass title="Olá Classe - By Prop"></ComponentClass>
     // <ComponetsWithFunction></ComponetsWithFunction>
 
     // <Familia sobrenome = "Lima">
